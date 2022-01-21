@@ -1,0 +1,29 @@
+h1{
+    font-family: cursive;
+    color: rgb(66, 220, 247);
+}
+
+.card-header{
+    color: rgb(89, 184, 248);
+    border-color: aquamarine;
+    border-radius: 7px;
+}
+
+.card-body{
+    color: rgb(96, 86, 129);
+}
+.card text-center mb-5 mx-auto{
+    color: aquamarine;
+}
+
+.navbar navbar-light bg-light{
+    color: aquamarine;
+}
+
+body{
+    background-image: url(https://i.pinimg.com/originals/20/43/14/204314074cdff584f32a03e5aac3ebb9.gif);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    font-family: 'Roboto',sans-serif;
+    background-attachment: fixed;
+}
