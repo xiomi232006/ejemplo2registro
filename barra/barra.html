@@ -11,40 +11,228 @@
       src="https://kit.fontawesome.com/7e5b2d153f.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script defer src="assets/js/index.js"></script>
   </head>
   <body>
     <header class="header">
       <nav class="nav">
-        <a href="#" class="logo nav-link">Logo</a>
+    <img src="img/LOGO.png" alt="Logo" class="nav-brand">
+      
         <button class="nav-toggle" aria-label="Abrir menú">
           <i class="fas fa-bars"></i>
         </button>
         <ul class="nav-menu">
           <li class="nav-menu-item">
-            <a href="inicio.html" class="nav-menu-link nav-link">Inicio</a>
-            <main>
-          
-
-              
-            </main>
+            <a href="http://127.0.0.1:5500/barra/barra.html" class="nav-menu-link nav-link"><i class="fas fa-home"></i>Inicio</a>
           </li>
           <li class="nav-menu-item">
-            <a href="#" class="nav-menu-link nav-link">Mensajes</a>
+            <a href="mensajes.html" class="nav-menu-link nav-link"><i class="fab fa-facebook-messenger"></i>Mensajes</a>
           </li>
           <li class="nav-menu-item">
-            <a href="#" class="nav-menu-link nav-link">Buscar</a>
+            <a href="#" class="nav-menu-link nav-link"><i class="fas fa-search"></i>Perfil</a>
           </li>
           <li class="nav-menu-item">
             <a href="#" class="nav-menu-link nav-link nav-menu-link_active"
-              >Notificaciones</a
+              ><i class="fas fa-bell"></i>Notificaciones</a
             >
           </li>
         </ul>
       </nav>
     </header>
-    <main>
-     
+            <main>
+                <!---ESTA SECCION ES DE INICIO DE LA RED SOCIAL-->
+              <!DOCTYPE html>
+              <html lang="en">
+              <head>
+                  <meta charset="UTF-8">
+                  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                  <title>Social Media</title>
+                  <link rel="stylesheet" href="home.css">
+                  <body>
+             <!--SERVICES-->
+                  <div class="main" style="display: flex; width: 100vw;">
+                      <section style="width: 25vw; padding: 30px;" class="service">
+                          <div>
+                              <h2>Services</h2>
+                          </div>
+                          <div class="items">
+                              <div class="itemser">
+                                  <img src="img/watch.png" alt="">
+                                  <h3 style="margin-top: 4px;">Watch</h3>
+                              </div>
+                              <div class="itemser">
+                                  <img src="img/friendship.png" alt="">
+                                  <h3 style="margin-top: 4px;">Friends</h3>
+                              </div>
+                              <div class="itemser">
+                                  <img src="img//shop.png" alt="">
+                                  <h3 style="margin-top: 4px;">Market</h3>
+                              </div>
+                              <div class="itemser">
+                                  <img src="img/cardiogram.png" alt="">
+                                  <h3 style="margin-top: 4px;">Health</h3>
+                              </div>
+                              <div class="itemser">
+                                  <img src="img/bookmark.png" alt="">
+                                  <h3 style="margin-top: 4px;">Saved</h3>
+                              </div>
+                              <div class="itemser">
+                                  <img src="img/game-console.png" alt="">
+                                  <h3 style="margin-top: 4px;">Games</h3>
+                              </div>
+                              <div class="itemser" href="chat.html">
+                                  <link href="chat.html"><img src="img/chat.png" alt="">
+                                  <h3 style="margin-top: 4px;">Chat</h3>
+                              </div>
+                              <div class="itemser">
+                                  <img src="img/problem-solving.png" alt="">
+                                  <h3 style="margin-top: 4px;">Help</h3>
+                              </div>
+                          </div>
+              
+                      </section>
+                      <section style="width: 50vw; padding: 20px;" class="feed">
+                          <div class="newpost">
+                              <div style="display: flex;" class="upper">
+                                  <img src="img/pp.jpg" alt="" style="width: 50px; height: 50px; margin: 10px; border-radius: 50%;">
+                                  <input type="text" placeholder="How are you today?" style="padding: 10px; border-radius: 15px; width: 80%; background-color: rgb(233, 232, 232); border: none;">
+                              </div>
+                              <div style="display: flex; justify-content: space-around;" class="lower">
+                                  <div class="ele" style="display: flex; align-items: center;">
+                                      <img src="img/live-video.png" alt="" style="width: 35px;">
+                                      <p style="margin: 5px;">Go-Live</p>
+                                  </div>
+                                  <div class="ele" style="display: flex; align-items: center;">
+                                      <img src="img/upload.png" alt="">
+                                      <p style="margin: 5px;">Upload</p>
+                                  </div>
+                                  <div class="ele" style="display: flex; align-items: center;">
+                                      <img src="img/feeling.png" alt="">
+                                      <p style="margin: 5px;">Feeling/Activity</p>
+                                  </div>
+                              </div>
+              
+                          </div>
+                          <div class="posts">
+                              <div class="post">
+                                  <div class="name">
+                                      <img src="img/dhroov.png" alt="">
+                                      <p>David Paredes</p>
+                                  </div>
+                                  <div class="image">
+                                      <img src="img/dhroov.png" alt="" style="height: 600px;">
+                                  </div>
+                                  <div class="actions">
+                                      <img src="img/heart.png" alt="">
+                                      <img src="img/comment.png" alt="">
+                                      <img src="img/share.png" alt="">
+                                  </div>
+                              </div>
+                              <div class="post">
+                                  <div class="name">
+                                      <img src="img/member-3.png" alt="">
+                                      <p>Mariana Aguilar</p>
+                                  </div>
+                                  <div class="image">
+                                      <img src="img/chicago.png" alt="">
+                                  </div>
+                                  <div class="actions">
+                                      <img src="img/heart.png" alt="">
+                                      <img src="img/comment.png" alt="">
+                                      <img src="img/share.png" alt="">
+                                  </div>
+                                  </div>
+                                  <div class="post">
+                                    <div class="name">
+                                        <img src="img/person3.jpg" alt="">
+                                        <p>Maricielo Coba</p>
+                                    </div>
+                                    <div class="image">
+                                        <img src="img/paisaje.jpg" alt="">
+                                    </div>
+                                    <div class="actions">
+                                        <img src="img/heart.png" alt="">
+                                        <img src="img/comment.png" alt="">
+                                        <img src="img/share.png" alt="">
+                                    </div>
+                              </div>
+              
+                          </div>
+                      </section>
+                      <!---FRIENDS-->
+                      <section style="width: 25vw; padding: 30px;" class="friends">
+                          <div>
+                              <h2 style="color: white;">Friends</h2>
+                          </div>
+                          <div class="listfriends">
+                              <div class="frnd">
+                                  <img src="img/person1.jpg" alt="">
+                                  <h3>Gabriela Ayala</h3>
+                              </div>
+                              <div class="frnd">
+                                  <img src="img/person2.png" alt="">
+                                  <h3>Rafael Vasquez</h3>
+                              </div>
+                              <div class="frnd">
+                                  <img src="img/person3.jpg" alt="">
+                                  <h3>Maricielo Coba</h3>
+                              </div>
+                              <div class="frnd">
+                                  <img src="img/person4.jpg" alt="">
+                                  <h3>Adriana Martinez</h3>
+                              </div>
+                              <div class="frnd">
+                                  <img src="img/person5.jpg" alt="">
+                                  <h3>Roberto Aguilar</h3>
+                              </div>
+                              <div class="frnd">
+                                  <img src="img/person6.jpg" alt="">
+                                  <h3>Daniela Barreto</h3>
+                              </div>
+                              <div class="frnd">
+                                  <img src="img/person7.jpg" alt="">
+                                  <h3>Karina Ortega</h3>
+                              </div>
+                              <div class="frnd">
+                                  <img src="img/person8.png" alt="">
+                                  <h3>Pablo Olortegui</h3>
+                              </div>
+                              <div class="frnd">
+                                  <img src="img/person9.png" alt="">
+                                  <h3>Jose Bautista</h3>
+                              </div>
+                          </div>
+              
+                      </section>
+              
+                  </div>
+                  <div class="menu hide">
+                      <div class="option" onclick="openprofile()">
+                          <img src="img/user.png" alt="">
+                          <p>View Profile</p>
+                      </div>
+                      <div class="option" onclick="night()">
+                          <img src="img/moon.png" alt="">
+                          <p>Night Mode</p>
+                      </div>
+                      <div class="option">
+                          <img src="img/settings.png" alt="">
+                          <p>Settings</p>
+                      </div>
+                      <div class="option" onclick="logout()">
+                          <img src="img/log-out.png" alt="">
+                          <p>Log-Out</p>
+                      </div>
+                    </div>
+                  <script src="home.js"></script>
+                   </body>
+                 </html>
+              
+     </main>
+    <main> 
     </main> 
   </body>
 </html>

@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    background-color: #efefef;
+}
+
+.logo{
+    color: #efefef;
+    background-image: linear-gradient(to right, purple,rgb(39, 39, 44));
+    border-left: solid 10px #efefef ;
+}
+.logo h1{
+    font-size: 40px;
+}
+.icons{
+    display: flex;
+}
+.icons img{
+    margin: 20px;
+    height: 25px;
+    width: 25px;
+
+}
+.search{
+    display: flex; 
+}
+.search input{
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    height: 25px;
+    
+}
+.search img{
+    height: 25px;
+    width: 25px;
+}
+.profile img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+.profile:hover{
+    border-radius: 15px;
+    background-color: rgb(173, 240, 48);
+}
+.service{
+    background-image: radial-gradient(circle at -11.24% 85.36%, #ff7b88 0, #ff6e90 10%, #ff6299 20%, #ff55a2 30%, #ff48ab 40%, #f23cb5 50%, #df34bf 60%, #ca33ca 70%, #b037d5 80%, #903fe0 90%, #6547ea 100%);
+}
+.itemser{
+    display: flex;
+    align-items: center;
+    margin: 17px;
+}
+.itemser img{
+    height: 25px;
+    width: 25px;
+    margin: 4px;
+}
+.itemser h3{
+    color: rgb(31, 27, 27);
+}
+.itemser:hover{
+    border-radius: 15px;
+    background-color: rgb(169, 185, 24);
+}
+.feed{
+    overflow-y: auto;
+}
+.newpost{
+    padding: 20px;
+    background-image: radial-gradient(circle at 43.31% 12.03%, #ff6cab 0, #ff61b7 8.33%, #ff56c3 16.67%, #ff4ccf 25%, #ff44db 33.33%, #ff3ee7 41.67%, #f23cf2 50%, #d53efd 58.33%, #b345ff 66.67%, #874dff 75%, #3d56ff 83.33%, #005eff 91.67%, #0064ff 100%);
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px 5px;
+}
+.lower{
+    margin-top: 20px;
+}
+.lower img{
+    height: 25px;
+    width: 25px;
+}
+.ele:hover{
+    border-radius: 15px;
+    background-color:rgb(169, 185, 24);
+
+}
+.friends{
+    background-image: radial-gradient(circle at -11.24% 85.36%, #ff7b88 0, #ff6e90 10%, #ff6299 20%, #ff55a2 30%, #ff48ab 40%, #f23cb5 50%, #df34bf 60%, #ca33ca 70%, #b037d5 80%, #903fe0 90%, #6547ea 100%);
+}
+.frnd{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.frnd img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.frnd h3{
+    color: rgb(23, 22, 24);
+}
+.frnd:hover{
+    border-radius: 15px;
+    background-color: rgb(169, 185, 24) ;
+}
+.posts{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.post{
+    background-image: linear-gradient(180deg, #ffbbcc 0, #ffb2c8 16.67%, #ffa8c1 33.33%, #f29db9 50%, #dc93b0 66.67%, #c889a7 83.33%, #b6819e 100%);
+    border-radius: 5px;
+    margin: 30px;
+    width: 550px;
+
+}
+.name{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+.name img{
+    margin: 5px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+.name p{
+    font-weight: 600;
+    color: rgb(37, 36, 36);
+}
+.image img{
+    height: 550px;
+    width: 550px;
+}
+.actions{
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.actions img{
+    height: 25px;
+    width: 25px;
+}
+.menu{
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+.option{
+    border-bottom: rgb(169, 185, 24) solid 2px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+.option:hover{
+    background-color: rgb(169, 185, 24);
+    border-radius: 15px;
+}
+.option img{
+    height: 25px;
+    width: 25px;
+    margin: 5px;
+}
+.option{
+    font-weight: 400;
+}
+.hide{
+    display: none;
+}
+.nightmode-service{
+    background-color: rgb(212, 143, 39);
+    color: white;
+}
+.nightmode-service h3{
+    color: white;
+}
+.nightmode-feed{
+    background-color: rgb(22, 21, 21);
+    color: white;
+}
+.nightmode-infeed{
+    background-color: rgb(169, 185, 24);
+    color: white;
+}
+.nightmode-infeed p{
+    color: white;
+}
+.night-shadow{
+    box-shadow: 0px 2px 20px 5px rgb(170, 36, 170);
+}
+
+
+.nav-brand{
+    width: 100px;
+    height: 80px;
+}
+
