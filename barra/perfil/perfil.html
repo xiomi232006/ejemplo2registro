@@ -1,0 +1,168 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Vibur:400' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+      <img src="img/LOGO.png" alt="Logo" class="nav-brand">
+        
+          <button class="nav-toggle" aria-label="Abrir menú">
+            <i class="fas fa-bars"></i>
+          </button>
+          <ul class="nav-menu">
+            <li class="nav-menu-item">
+              <a href="http://127.0.0.1:5500/barra/barra.html" class="nav-menu-link nav-link"><i class="fas fa-home"></i>Inicio</a>
+            </li>
+            <li class="nav-menu-item">
+              <a href="mensajes.html" class="nav-menu-link nav-link"><i class="fab fa-facebook-messenger"></i>Mensajes</a>
+            </li>
+            <li class="nav-menu-item">
+              <a href="perfil/perfil.html" class="nav-menu-link nav-link"><i class="fas fa-search"></i>Perfil</a>
+            </li>
+            <li class="nav-menu-item">
+              <a href="#" class="nav-menu-link nav-link nav-menu-link_active"
+                ><i class="fas fa-bell"></i>Notificaciones</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+    <div class="headimg">
+        
+        <div class="profilepic">
+            <img src="img/pp.jpg" alt="Profile Picture">
+        </div>
+        <div class="name" style="margin-top: 20px;">
+            <h1 class="neontext" id="newname">Xiomara Paredes</h1>
+        </div>
+        <div class="follow" style="margin: 20px 20px;">
+            <button>Follow</button>
+        </div>
+    </div>
+
+     <div class="up">
+         <div class="main">
+             <div class="sections">
+                 <div class="sec" onclick="onscr(1)">About</div>
+                 <div class="sec" onclick="onscr(2)">Posts</div>
+                 <div class="sec" onclick="onscr(3)">Friends</div>
+                 <div class="sec" onclick="onscr(4)">Settings</div>
+                 
+             </div>
+             <div class="info">
+                 <div class="about">
+                    <div class="information">
+                        <div class="eles">
+                            <div class="title">BIO</div>
+                            <div class="textin" id="newbio">Student and Programador</div>
+                        </div>
+                        <div class="eles">
+                           <div class="title">OCUPATION</div>
+                           <div class="textin" id="newcont">Student</div>
+                       </div>
+                       <div class="eles">
+                           <div class="title">USERNAME</div>
+                           <div class="textin" id="newun">Xiomi23</div>
+                       </div>
+                       <div class="eles">
+                           <div class="title">LIKES</div>
+                           <div class="textin" id="newlikes">cantar,componer y music</div>
+                       </div>
+                       <div class="eles">
+                           <div class="title">BIRTHDAY</div>
+                           <div class="textin">23th Febrary 2006 (15 years old)</div>
+                       </div>
+                    </div>
+
+                    <div class="bitmoji">
+                        <img src="img/avatar.png" alt="">
+                    </div>
+                 </div>
+                 <div class="posts dis" >
+                     <img src="img/pp.jpg" alt="">
+                     <img src="img/pp.jpg" alt="">
+                     <img src="img/pp.jpg" alt="">
+                     <img src="img/pp.jpg" alt="">
+                     <img src="img/pp.jpg" alt="">
+                     <img src="img/pp.jpg" alt="">
+                     <img src="img/pp.jpg" alt="">
+                     <img src="img/pp.jpg" alt="">
+                 </div>
+                 <div class="friends dis" >
+                     <div class="frnd">
+                         <img src="img/geraldine.jpg" alt="">
+                         <div class="name">Geraldine 
+                             Paredes
+                         </div>
+                     </div>
+                     <div class="frnd">
+                        <img src="img/eiki.jpg" alt="">
+                        <div class="name">Eiki 
+                            Paredes
+                        </div>
+                    </div>
+                    <div class="frnd">
+                        <img src="img/nancy.jpg" alt="">
+                        <div class="name">Nancy 
+                            Grigalba</div>
+                    </div>
+                    <div class="frnd">
+                        <img src="img/mariana.jpg" alt="">
+                        <div class="name">Mariana
+                            Ugarte
+                        </div>
+                    </div>
+                    <div class="frnd">
+                        <img src="img/victor.jpg" alt="">
+                        <div class="name">Victor Juarez</div>
+                    </div>
+                    <div class="frnd">
+                        <img src="img/maria.jpg" alt="">
+                        <div class="name">Maria Elena</div>
+                    </div>
+                    <div class="frnd">
+                        <img src="img/juan.jpg" alt="">
+                        <div class="name">Juan 
+                            Carlos
+                        </div>
+                    </div>
+                    <div class="frnd">
+                        <img src="img/sandra.jpg" alt="">
+                        <div class="name">Sandra Vasquez</div>
+                    </div>
+                 </div>
+                 <div class="saved dis" >
+                     <div class="update">
+                        <div class="form">
+                            <div class="oneele">
+                                Name: <input type="text" name="" id="myname">
+                            </div>
+                            <div class="oneele">
+                                Username: <input type="text" name="" id="usern">
+                            </div>
+                            <div class="oneele">
+                                Bio: <input type="text" name="" id="bios">
+                            </div>
+                            <div class="oneele">
+                                Contact: <input type="text" name="" id="cont">
+                            </div>
+                            <div class="oneele">
+                                Likes: <input type="text" name="" id="lik">
+                            </div>
+                            <button id="apply" onclick="change()">Appy Changes</button>
+                        </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+     <script src="script.js"></script>
+
+</body>
+</html>
