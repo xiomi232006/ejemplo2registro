@@ -48,3 +48,4 @@ LUEGO TRABAJAMOS EN LOS PROTOTIPOS DE ALTA FIDELIDAD DE LAS DIFERENTES VISTAS:
 
 *Vista de Login:
 
+[![Captura-de-pantalla-12.png](https://i.postimg.cc/L57zzv3f/Captura-de-pantalla-12.png)](https://postimg.cc/n94jx45c)
