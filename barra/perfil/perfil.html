@@ -7,7 +7,7 @@
     <title>HelloChat /profile</title>
     <!---LINK DE ICONO-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="perfil.css">
     <link href='https://fonts.googleapis.com/css?family=Vibur:400' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -53,7 +53,7 @@
 
      <div class="up">
          <div class="main">
-             <div class="sections">
+             <div class="sections"><!---secciones del perfil-->
                  <div class="sec" onclick="onscr(1)">About</div>
                  <div class="sec" onclick="onscr(2)">Posts</div>
                  <div class="sec" onclick="onscr(3)">Friends</div>
@@ -61,29 +61,29 @@
                  
              </div>
              <div class="info">
-                 <div class="about">
+                 <div class="about"><!---primera seccion-->
                     <div class="information">
                         <div class="eles">
-                            <div class="title">BIO</div>
+                            <div class="title">DESCRIPCIÓN</div><!--PRIMERA DESCRIPCION-->
                             <div class="textin" id="newbio">Student and Programador</div>
                         </div>
                         <div class="eles">
-                           <div class="title">OCUPATION</div>
+                           <div class="title">OCUPATION</div><!--2-->
                            <div class="textin" id="newcont">Student</div>
                        </div>
                        <div class="eles">
-                           <div class="title">USERNAME</div>
+                           <div class="title">USERNAME</div><!--NOMBRE DE USUARIO3-->
                            <div class="textin" id="newun">Xiomi23</div>
                        </div>
                        <div class="eles">
-                           <div class="title">LIKES</div>
+                           <div class="title">LIKES</div><!--4-->
                            <div class="textin" id="newlikes">cantar,componer y music</div>
                        </div>
                        <div class="eles">
-                           <div class="title">BIRTHDAY</div>
+                           <div class="title">BIRTHDAY</div><!--5-->
                            <div class="textin">23th Febrary 2006 (15 years old)</div>
                        </div>
-                       <div class="eles">
+                       <div class="eles"><!---6-->
                         <div class="title">CONTACT</div>
                         <div class="textin">
                             <a href="#"><i class="fab fa-facebook"></i></a>
@@ -94,10 +94,11 @@
                     </div>
                     </div>
 
-                    <div class="bitmoji">
+                    <div class="bitmoji"><!--SECION DE AVATAR-->
                         <img src="img/avatar.png" alt="">
                     </div>
                  </div>
+                 <!--SECCION DE POST-->
                  <div class="posts dis" >
                      <img src="img/pp.jpg" alt="">
                      <img src="img/pp.jpg" alt="">
@@ -108,49 +109,51 @@
                      <img src="img/pp.jpg" alt="">
                      <img src="img/pp.jpg" alt="">
                  </div>
+                 <!--SECCION DE AMIGOD -->
                  <div class="friends dis" >
-                     <div class="frnd">
+                     <div class="frnd"><!--1 friends-->
                          <img src="img/geraldine.jpg" alt="">
                          <div class="name">Geraldine 
                              Paredes
                          </div>
                      </div>
-                     <div class="frnd">
+                     <div class="frnd"><!--2 friends-->
                         <img src="img/eiki.jpg" alt="">
                         <div class="name">Eiki 
                             Paredes
                         </div>
                     </div>
-                    <div class="frnd">
+                    <div class="frnd"><!--3 friends-->
                         <img src="img/nancy.jpg" alt="">
                         <div class="name">Nancy 
                             Grigalba</div>
                     </div>
-                    <div class="frnd">
+                    <div class="frnd"><!--4 friends-->
                         <img src="img/mariana.jpg" alt="">
                         <div class="name">Mariana
                             Ugarte
                         </div>
                     </div>
-                    <div class="frnd">
+                    <div class="frnd"><!--5 friends-->
                         <img src="img/victor.jpg" alt="">
                         <div class="name">Victor Juarez</div>
                     </div>
-                    <div class="frnd">
+                    <div class="frnd"><!--6 friends-->
                         <img src="img/maria.jpg" alt="">
                         <div class="name">Maria Elena</div>
                     </div>
-                    <div class="frnd">
+                    <div class="frnd"><!--7 friends-->
                         <img src="img/juan.jpg" alt="">
                         <div class="name">Juan 
                             Carlos
                         </div>
                     </div>
-                    <div class="frnd">
+                    <div class="frnd"><!--8 friends-->
                         <img src="img/sandra.jpg" alt="">
                         <div class="name">Sandra Vasquez</div>
                     </div>
                  </div>
+                 <!--AJUSTES-->
                  <div class="saved dis" >
                      <div class="update">
                         <div class="form">
@@ -177,7 +180,7 @@
              </div>
          </div>
      </div>
-     <script src="script.js"></script>
+     <script src="perfil.js"></script>
 
 </body>
 </html>
