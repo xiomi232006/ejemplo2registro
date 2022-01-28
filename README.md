@@ -71,3 +71,9 @@ LUEGO TRABAJAMOS EN LOS PROTOTIPOS DE ALTA FIDELIDAD DE LAS DIFERENTES VISTAS:
 [![Captura-de-pantalla-19.png](https://i.postimg.cc/JhcvPHgt/Captura-de-pantalla-19.png)](https://postimg.cc/Ty1tP1TX)
 [![Captura-de-pantalla-20.png](https://i.postimg.cc/8csYpKCr/Captura-de-pantalla-20.png)](https://postimg.cc/CnT7J4kF)
 [![Captura-de-pantalla-21.png](https://i.postimg.cc/FzqB7yfC/Captura-de-pantalla-21.png)](https://postimg.cc/gLVD76H3)
+
+*MOBILE:
+
+[![Captura-de-pantalla-24.png](https://i.postimg.cc/Ss9rDBjd/Captura-de-pantalla-24.png)](https://postimg.cc/LYHLs0tg)
+[![Captura-de-pantalla-25.png](https://i.postimg.cc/GhKj7J3W/Captura-de-pantalla-25.png)](https://postimg.cc/HVJ5jMyz)
+[![Captura-de-pantalla-26.png](https://i.postimg.cc/4yZzwnD4/Captura-de-pantalla-26.png)](https://postimg.cc/R6s6ZCC2)
