@@ -49,3 +49,25 @@ LUEGO TRABAJAMOS EN LOS PROTOTIPOS DE ALTA FIDELIDAD DE LAS DIFERENTES VISTAS:
 *Vista de Login:
 
 [![Captura-de-pantalla-12.png](https://i.postimg.cc/L57zzv3f/Captura-de-pantalla-12.png)](https://postimg.cc/n94jx45c)
+
+
+*Ingresar con email:
+
+[![Captura-de-pantalla-13.png](https://i.postimg.cc/6TJ8WPhH/Captura-de-pantalla-13.png)](https://postimg.cc/T50dQCFm)
+
+*Ingresar con gmail:
+
+[![Captura-de-pantalla-17.png](https://i.postimg.cc/HLRcvjyD/Captura-de-pantalla-17.png)](https://postimg.cc/SXLxJSdD)
+
+*Registrarse:
+
+[![Captura-de-pantalla-18.png](https://i.postimg.cc/W30398Vg/Captura-de-pantalla-18.png)](https://postimg.cc/BLQ4bxXn)
+
+
+#HOME:
+
+*DESKTOP:
+
+[![Captura-de-pantalla-19.png](https://i.postimg.cc/JhcvPHgt/Captura-de-pantalla-19.png)](https://postimg.cc/Ty1tP1TX)
+[![Captura-de-pantalla-20.png](https://i.postimg.cc/8csYpKCr/Captura-de-pantalla-20.png)](https://postimg.cc/CnT7J4kF)
+[![Captura-de-pantalla-21.png](https://i.postimg.cc/FzqB7yfC/Captura-de-pantalla-21.png)](https://postimg.cc/gLVD76H3)
