@@ -5,6 +5,8 @@
 
 Es una red social dirigida a todas las personas del mundo ,donde podran compartir momentos de su vida,tips ,seguir y chatear con amigos de diferentes paises,resivir notificaciones,contar con un perfil de usuario con ajustes,seccion de juegos ,marketing ,etc.
 
+Además  tiene la posibilidad de configurar la privacidad del post que vaya a realizar Publico o Privado,asi como añadir comentarios,editarlos o eliminarlos.También podrá añadir o remover likes a la publicaciones y modificar sus datos en el perfil. 
+
 ¡No dudes en ser parte de esta comunidad , disfruta compartiendo cada momento de tu vida!
 
 
@@ -163,3 +165,17 @@ LUEGO TRABAJAMOS EN LOS PROTOTIPOS DE ALTA FIDELIDAD DE LAS DIFERENTES VISTAS:
 
 [![Captura-de-pantalla-33.png](https://i.postimg.cc/ry3jRCFc/Captura-de-pantalla-33.png)](https://postimg.cc/MX0VhBQr)
 [![Captura-de-pantalla-34.png](https://i.postimg.cc/Zndrx2Km/Captura-de-pantalla-34.png)](https://postimg.cc/RJv6MPHp)
+
+
+#LENGUAJES DE PROGRAMACIÓN UTILIZADOS:
+
+*HTML
+
+*CSS
+
+*JS
+
+
+#APSS:
+
+*FIREBASE-GOOGLE
