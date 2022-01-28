@@ -192,3 +192,10 @@ Para la autentificaión del registro
 *GIT HUB:
 
 para el trabajo colaborativo en repositorio
+
+
+#CREADORAS DEL PROYECTO DE LA UNIDAD N°4:
+
+Geraldine Paredes Sanchez:jparedes@estudiantes.crackthecode.la
+
+Xiomara Paredes Sanchez:jeparedes@estudiantes.crackthecode.la
