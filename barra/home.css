@@ -25,29 +25,8 @@ body{
     width: 25px;
 
 }
-.search{
-    display: flex; 
-}
-.search input{
-    border: none;
-    border-radius: 15px;
-    padding: 15px;
-    height: 25px;
-    
-}
-.search img{
-    height: 25px;
-    width: 25px;
-}
-.profile img{
-    height: 45px;
-    width: 45px;
-    border-radius: 50%;
-}
-.profile:hover{
-    border-radius: 15px;
-    background-color: rgb(173, 240, 48);
-}
+
+
 .service{
     background-image: radial-gradient(circle at -11.24% 85.36%, #ff7b88 0, #ff6e90 10%, #ff6299 20%, #ff55a2 30%, #ff48ab 40%, #f23cb5 50%, #df34bf 60%, #ca33ca 70%, #b037d5 80%, #903fe0 90%, #6547ea 100%);
 }
@@ -202,7 +181,7 @@ body{
     box-shadow: 0px 2px 20px 5px rgb(170, 36, 170);
 }
 
-
+/*logo*/
 .nav-brand{
     width: 100px;
     height: 80px;

@@ -3,43 +3,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile Page</title>
+    <link rel="icon" href="https://i.postimg.cc/zGwrgX2d/LOGO.png">
+    <title>HelloChat /profile</title>
+    <!---LINK DE ICONO-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Vibur:400' rel='stylesheet' type='text/css'>
 </head>
 <body>
+    
+     <!----------BARRA QUE CONTIENE LAS SECCIONES DE LA RED SOCIAL-->
     <header class="header">
         <nav class="nav">
-      <img src="img/LOGO.png" alt="Logo" class="nav-brand">
+      <img src="img/LOGO.png" alt="Logo" class="nav-brand"><!--logo-->
         
           <button class="nav-toggle" aria-label="Abrir menú">
-            <i class="fas fa-bars"></i>
+            <i class="fas fa-bars"></i><!--menu despegable-->
           </button>
-          <ul class="nav-menu">
-            <li class="nav-menu-item">
+          <ul class="nav-menu"><!--seccion que une todas las secciones-->
+            <li class="nav-menu-item"><!--elemto del menu de navegacion-->
               <a href="http://127.0.0.1:5500/barra/barra.html" class="nav-menu-link nav-link"><i class="fas fa-home"></i>Inicio</a>
             </li>
-            <li class="nav-menu-item">
+            <li class="nav-menu-item"><!--elemto del menu de navegacion-->
               <a href="mensajes.html" class="nav-menu-link nav-link"><i class="fab fa-facebook-messenger"></i>Mensajes</a>
             </li>
-            <li class="nav-menu-item">
+            <li class="nav-menu-item"><!--elemto del menu de navegacion-->
               <a href="perfil/perfil.html" class="nav-menu-link nav-link"><i class="fas fa-search"></i>Perfil</a>
             </li>
-            <li class="nav-menu-item">
+            <li class="nav-menu-item"><!--elemto del menu de navegacion-->
               <a href="#" class="nav-menu-link nav-link nav-menu-link_active"
                 ><i class="fas fa-bell"></i>Notificaciones</a
               >
             </li>
           </ul>
         </nav>
-      </header>
-    <div class="headimg">
-        
-        <div class="profilepic">
+      </header><!-------------------CIERRE DE LA BARRA-------->
+
+    <div class="headimg"><!----encabezado----->
+        <div class="profilepic"><!---foto de perfil---->
             <img src="img/pp.jpg" alt="Profile Picture">
         </div>
         <div class="name" style="margin-top: 20px;">
-            <h1 class="neontext" id="newname">Xiomara Paredes</h1>
+            <h1 class="neontext" id="newname">Xiomara Paredes</h1><!--nombre de usuario-->
         </div>
         <div class="follow" style="margin: 20px 20px;">
             <button>Follow</button>
@@ -78,6 +83,15 @@
                            <div class="title">BIRTHDAY</div>
                            <div class="textin">23th Febrary 2006 (15 years old)</div>
                        </div>
+                       <div class="eles">
+                        <div class="title">CONTACT</div>
+                        <div class="textin">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter-square"></i></a>
+                            <a href="#"><i class="fab fa-google-plus"></i></a>
+                            <a href="#"><i class="fab fa-instagram-square"></i></a>
+                        </div>
+                    </div>
                     </div>
 
                     <div class="bitmoji">
@@ -155,6 +169,7 @@
                             <div class="oneele">
                                 Likes: <input type="text" name="" id="lik">
                             </div>
+                            
                             <button id="apply" onclick="change()">Appy Changes</button>
                         </div>
                      </div>

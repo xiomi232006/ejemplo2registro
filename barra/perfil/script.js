@@ -36,3 +36,4 @@ function change(){
     document.getElementById('newname').innerHTML = myname;
 
 }
+

@@ -49,6 +49,7 @@ body{
 .profilepic{
     z-index: 5;
 }
+/*foto de perfil*/
 .profilepic img{
     height: 160px;
     width: 160px;
@@ -60,7 +61,7 @@ body{
     z-index: 0;
     box-shadow: -60px 20px 100px rgb(124, 21, 73), 60px 0px 100px rgb(124, 21, 73);
 }
-
+/*---texto neon de nombre de usuario */
 .neonText {
     color: rgb(255, 255, 255);
     text-shadow:
@@ -75,7 +76,7 @@ body{
     font-family: "Vibur", sans-serif;
     font-size: 50px;
   }
-
+/*botom de seguir*/
 .follow button{
     padding: 10px 20px;
     background-image: linear-gradient(blue,purple);
@@ -102,6 +103,7 @@ body{
     align-items: center;
     width: 80vw;
 }
+/*secciones de services y friends*/
 .sections{
     height: 50px;
     width: inherit;
@@ -109,6 +111,7 @@ body{
     justify-content: space-around;
     align-items: center;
 }
+/* info del perfil*/
 .info{
     background-image: linear-gradient(180deg, #f2bfff 0, #d5aeff 25%, #b99df2 50%, #9e8cd6 75%, #867bbc 100%);
     height: 90vh;
@@ -130,7 +133,7 @@ body{
     cursor: pointer;
      
 }
-
+/* seccion de acerca de..*/
 .about{
     display: flex;
     justify-content: space-around;
@@ -145,6 +148,7 @@ body{
     width: 70%;
     background-image: linear-gradient(180deg, #f2bfff 0, #d5aeff 25%, #b99df2 50%, #9e8cd6 75%, #867bbc 100%);
 }
+/*avatar*/
 .bitmoji img{
     height: 100%;
     width: 50%;
@@ -175,24 +179,15 @@ body{
     font-size: 20px;
     color: rgb(236, 8, 141);
 }
-.posts{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-.posts img{
-    width: 200px;
-    height: 200px;
-    margin: 20px;
-}
 
+/*/amigos*/
 .friends{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
+/*perfil de imagen de amigos*/
 .frnd img{
     width: 200px;
     height: 200px;
@@ -208,10 +203,12 @@ body{
     color: white;
     font-size: 20px;
 }
+/*setings form*/
 .form{
     display: flex;
     flex-direction: column;
 }
+/*actualizar*/
 .update{
     margin-top: 40px;
 }
@@ -249,6 +246,7 @@ body{
 
 
 
+/*/barra de la pagina principal*/
 
 .header {
     background-color: #92ec8f;
@@ -258,7 +256,7 @@ body{
     top: 0;
     left: 0;
   }
-  
+  /*barra principal*/
   .nav {
     display: flex;
     justify-content: space-between;
@@ -278,13 +276,13 @@ body{
     padding: 0 40px;
     line-height: 80px;
   }
-  
+  /*menu de la barra*/
   .nav-menu {
     display: flex;
     margin-right: 40px;
     list-style: none;
   }
-  
+  /*elemento del menu de navegacion*/
   .nav-menu-item {
     font-size: 18px;
     margin: 0 10px;
@@ -297,14 +295,16 @@ body{
     padding: 8px 12px;
     border-radius: 3px;
   }
-  
+  /*efecto hover del menu*/
   .nav-menu-link:hover,
   .nav-menu-link_active {
     background-color: #034574;
     transition: 0.5s;
   }
   
+
   /* TOGGLE */
+  /*menu despegable*/
   .nav-toggle {
     color: white;
     background: none;
@@ -317,7 +317,10 @@ body{
     display: none;
   }
   
-  /* MOBILE */
+
+  
+
+  /* MOBILE *//*responsive*/
   @media (max-width: 768px) {
     body {
       padding-top: 70px;
@@ -353,7 +356,7 @@ body{
     .nav-menu-item {
       line-height: 70px;
     }
-  
+  /*efecto hover*/
     .nav-menu-link:hover,
     .nav-menu-link_active {
       background: none;
