@@ -43,3 +43,8 @@ LUEGO TRABAJAMOS EN LOS PROTOTIPOS DE ALTA FIDELIDAD DE LAS DIFERENTES VISTAS:
 
 [![Captura-de-pantalla-10.png](https://i.postimg.cc/rwYL5rBT/Captura-de-pantalla-10.png)](https://postimg.cc/rDWbkKyZ)
 
+
+#VISTA EN ANDROID: INICIO DE SESIÓN:
+
+*Vista de Login:
+
