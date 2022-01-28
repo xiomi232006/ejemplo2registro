@@ -23,6 +23,8 @@ Es una red social dirigida a todas las personas del mundo ,donde podran comparti
 
 LUEGO TRABAJAMOS EN LOS PROTOTIPOS DE ALTA FIDELIDAD DE LAS DIFERENTES VISTAS:
 
+#VISTA EN LAPTOP:
+
 *INICIO DE SESIÓN:
 
 *Vista de Login:
