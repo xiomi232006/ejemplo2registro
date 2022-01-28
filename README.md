@@ -151,3 +151,9 @@ LUEGO TRABAJAMOS EN LOS PROTOTIPOS DE ALTA FIDELIDAD DE LAS DIFERENTES VISTAS:
 
 [![Captura-de-pantalla-29.png](https://i.postimg.cc/W1DXdqjx/Captura-de-pantalla-29.png)](https://postimg.cc/9DhGSMDB)
 [![Captura-de-pantalla-30.png](https://i.postimg.cc/kGXyqBf1/Captura-de-pantalla-30.png)](https://postimg.cc/mzJ9S2xC)
+
+
+*FRIENDS:
+
+[![Captura-de-pantalla-31.png](https://i.postimg.cc/SsKXKCbM/Captura-de-pantalla-31.png)](https://postimg.cc/MchZPcT6)
+[![Captura-de-pantalla-32.png](https://i.postimg.cc/T2FyRK7K/Captura-de-pantalla-32.png)](https://postimg.cc/yWh6j8zK)
