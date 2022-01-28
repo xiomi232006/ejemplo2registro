@@ -61,7 +61,7 @@ LUEGO TRABAJAMOS EN LOS PROTOTIPOS DE ALTA FIDELIDAD DE LAS DIFERENTES VISTAS:
 
 *Registrarse:
 
-[![Captura-de-pantalla-18.png](https://i.postimg.cc/W30398Vg/Captura-de-pantalla-18.png)](https://postimg.cc/BLQ4bxXn)
+[![Captura-de-pantalla-18.png](https://i.postimg.cc/59hc9Jw4/Captura-de-pantalla-18.png)](https://postimg.cc/6TfbzDjg)
 
 
 #HOME:
