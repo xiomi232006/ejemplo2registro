@@ -29,3 +29,15 @@ LUEGO TRABAJAMOS EN LOS PROTOTIPOS DE ALTA FIDELIDAD DE LAS DIFERENTES VISTAS:
 
 [![Captura-de-pantalla-7.png](https://i.postimg.cc/G9wCTwVy/Captura-de-pantalla-7.png)](https://postimg.cc/wRVPnP6q)
 
+*Ingresar con email:
+
+[![Captura-de-pantalla-8.png](https://i.postimg.cc/BQBSPtZZ/Captura-de-pantalla-8.png)](https://postimg.cc/XpXSTjyt)
+
+*Ingresar con gmail:
+
+[![Captura-de-pantalla-9.png](https://i.postimg.cc/X743W3fR/Captura-de-pantalla-9.png)](https://postimg.cc/yWQ2hMrj)
+
+*Registrarse:
+
+[![Captura-de-pantalla-10.png](https://i.postimg.cc/rwYL5rBT/Captura-de-pantalla-10.png)](https://postimg.cc/rDWbkKyZ)
+
