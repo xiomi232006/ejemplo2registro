@@ -25,3 +25,7 @@ LUEGO TRABAJAMOS EN LOS PROTOTIPOS DE ALTA FIDELIDAD DE LAS DIFERENTES VISTAS:
 
 *INICIO DE SESIÓN:
 
+*Vista de Login:
+
+[![Captura-de-pantalla-7.png](https://i.postimg.cc/G9wCTwVy/Captura-de-pantalla-7.png)](https://postimg.cc/wRVPnP6q)
+
